@@ -1,7 +1,21 @@
 #include "mainwindow.h"
 #include <QApplication>
 
-int main(int argc, char *argv[])
+void MvScene::keyPressEvent(QKeyEvent * keyEvent)
+{
+    switch (keyEvent->key()) {
+        case Qt::Key_Left:
+        tank-> rotate(-90);
+       .
+       .
+       .
+       .
+        case Qt::Key_Down:
+
+            tank->rotate(180);
+            break;
+    }
+
 {
     QApplication a(argc, argv);
     MainWindow w;
