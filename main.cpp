@@ -5,14 +5,14 @@ void MvScene::keyPressEvent(QKeyEvent * keyEvent)
 {
     switch (keyEvent->key()) {
         case Qt::Key_Left:
-        tank-> rotate(-90);
+        car-> rotate(-90);
        .
        .
        .
        .
         case Qt::Key_Down:
 
-            tank->rotate(180);
+            car->rotate(180);
             break;
     }
 
